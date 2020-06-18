@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text%7CPrata&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3103f852b1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <img class='background_pic' src="portfolio_pictures/16904946_730500563771681_5610311569809551055_o.jpg" alt="background_pic">
+
+    <nav class='navigation_bar'>
+        <button onclick="link_one()" class='link portfolio_link1'>About Me</button>
+        <button onclick="link_two()" class='link portfolio_link2'>Contact</button>
+        <button onclick="link_three()" class='link portfolio_link3'>Portfolio</button>
+    </nav>
+
+    <section id='personal_info' class='personal_info'>
+
+      <div class='left_box'>
+        <img id='face_picture' alt='face picture' src='portfolio_pictures/Face.jpg' />
+        <h1>JAXON POTTER</h1>
+      </div>
+
+      <div class='right_box'>
+        
+        
+        <ul>
+          <li>
+            Hey, I'm Jaxon, a full-stack developer with passion for UI/UX design driven by my love for art. I love creating simple yet stylish web pages.
+            I love languages and know four fluently. This passion has fueled me to always be up-to-date with my knowledge and be able to code fluedly.
+            I'm looking forward to working with and learning from a great team of programmers.
+          </li>
+          
+          <li>
+            In my free time, you can find me skateboarding, drawing anything that pops into my head (mostly monsters or logo ideas) or listening to music
+            in different languages (whether I understand it or not).
+          </li>
+        </ul>
+        
+        
+      </div>
+    </section>
+
+    <section id='contact_info' class='contact_info'>
+      <h2>Contact Me!</h2>
+      <div class='contact_links'>
+        <a class='contact' href="mailto:jaxonpotter@gmail.com" target="_blank"><i class="far fa-envelope fa-3x"></i></a>
+        <a class="contact" href="https://github.com/Jaxonion?tab=repositories" target='_blank'><i class="icon fab fa-github fa-3x"></i></a>
+        <a class="contact" href="https://www.linkedin.com/in/jaxonpotter/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+      </div>
+    </section>
+
+    <section class='my_work'>
+
+      <h2 class='my_work_title'>My Work</h2>
+
+      <section id='first_item' class='one works'>
+        <h3 class='first_item_title'>Skateboard Quiz</h3>
+        <a target='_blank' href="https://jaxonion.github.io/Quiz-App/">
+          <img class='work_pic' alt='Preview of Skate Quiz Application' src='Quiz_App_Pictures/Question_Options_Quiz_App.PNG' />
+        </a>
+        <p class='first_item_description'>Skateboard Quiz. Goes through a 10 questions scoring you on your knowledge about skateboarding</p>
+        <div class='description'>
+          <p class='made_with'>Made with HTML, CSS, and JavaScript</p>
+          <div class='rep_links'>
+            <a href='https://github.com/Jaxonion/Quiz-App' target='_blank' class='app_link github_link'>GitHub Repo</a>
+            <a href='https://jaxonion.github.io/Quiz-App/' target='_blank' class='app_link'>Live Link</a>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class='two works'>
+        <h3 class='second_item_title'>API App</h3>
+        <a target="_blank" href="https://jaxonion.github.io/API-App/">
+          <img class='work_pic' alt='Preview of API App' src='Quiz_App_Pictures/skate_help_picture.PNG' />
+        </a>
+        <p class='second_item_description'>API App that uses a weather API to find the weather as well as Youtube's API to find videos on how to learn a trick of your choice. I made this app with API calls to make it easier to find how-to videos and know what the weather is like outside to be able to skate.</p>
+        <div class="description">
+          <p class='made_with'>Made with HTML, CSS, JavaScript and API Calls with JSX</p>
+          <div class='rep_links'>
+            <a href='https://github.com/Jaxonion/API-App' target='_blank' class='app_link github_link'>GitHub Repo</a>
+            <a href='https://jaxonion.github.io/API-App/' target='_blank' class='app_link'>Live Link</a>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class='three works'>
+        <h3 class='third_item_title'>Producer App</h3>
+        <a target="_blank" href="https://producer-app.vercel.app/">
+          <img class='work_pic' alt='Preview of Producer App' src='Quiz_App_Pictures/producer-app.PNG' />
+        </a>
+        <p class='third_item_description'>Producer App is and application that helps music producers and song writters alike. One page helps song writers brainstorm lyrics and the other helps producers hear popular songs of the selected genre in order to get a feel for how to compose.</p>
+        <div class="description">
+          <p class='made_with'>Made with HTML, CSS, React, PostgreSQL, Javascript, Express, Node, Datamuse and Spotify API's.</p>
+          <div class='rep_links'>
+            <a href='https://github.com/Jaxonion/producer-app' target='_blank' class='app_link github_link'>GitHub Repo</a>
+            <a href='https://producer-app.vercel.app/' target='_blank' class='app_link'>Live Link</a>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class='four works'>
+        <h3 class='fourth_item_title'>Skate Notes App</h3>
+        <a target="_blank" href="https://skate-notes-app.vercel.app/">
+          <img class='work_pic' alt='Preview of Producer App' src='Quiz_App_Pictures/skate-notes-app.PNG' />
+        </a>
+        <p class='fourth_item_description'>Note taking application that allows you to take notes on how you do certain skateboarding tricks as well as being able to take notes on your foot position for that trick.</p>
+        <div class="description">
+          <p class='made_with'>Made with HTML, CSS, React, PostgreSQL, Javascript, Express, and Node</p>
+          <div class='rep_links'>
+            <a href='https://github.com/Jaxonion/producer-app' target='_blank' class='app_link github_link'>GitHub Repo</a>
+            <a href='https://producer-app.vercel.app/' target='_blank' class='app_link'>Live Link</a>
+          </div>
+          
+        </div>
+      </section>
+
+    </section>
+
+    <footer>
+      Created by Jaxon 2020
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  </body>
+</html>
