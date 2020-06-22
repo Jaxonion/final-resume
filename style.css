@@ -5,17 +5,6 @@
     padding: 0;
     font-family: 'Libre Caslon Text', serif;
   }
-  body {
-    
-  }
-  nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: gray;
-    height: 50px;
-  }
   
   .left_box {
     display: flex;
@@ -43,7 +32,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*min-height: 675px;*/
     background-color: lightgray;
   }
   
@@ -192,6 +180,14 @@
 
   .contact {
     color: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .fa-3x {
+    padding-bottom: 8px;
   }
 
   .contact_links {
@@ -221,10 +217,20 @@
     padding-left: 10px;
   }
 
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: gray;
+    height: 150px;
+  }
+
+
   @media screen and (min-width: 420px) {
-    
-    .personal_info {
-      /*min-height: 850px;*/
+    nav {
+      flex-direction: row;
+      height: 50px;
     }
   }
 
@@ -249,7 +255,6 @@
   @media screen and (min-width: 700px) {
     .personal_info {
       flex-direction: row;
-      /*height: 500px;*/
       padding-right: 50px;
     }
   }
@@ -281,7 +286,3 @@
     background-color: gray;
     border-top: 2px solid black;
   }
-  /*.icon {
-    width: 50px;
-    height: 50px;
-  }*/
